@@ -1,0 +1,57 @@
+/* Style the plus and minus buttons */
+.plus-btn, .minus-btn {
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .plus-btn {
+    margin-left: 5px;
+  }
+  
+  /* Style the quantity input */
+  .qty-input {
+    font-size: 16px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+   Style the delete and like buttons 
+  .delete-btn, .like-btn {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: #fff;
+    background-color: red;
+  }
+  
+  .like-btn {
+    margin-left: 10px;
+    position: relative;
+  }
+  
+  /* Style the heart icon */
+  .like-btn i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 20
+  }
